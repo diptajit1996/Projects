@@ -1,0 +1,89 @@
+<!Doctype html>
+<html>
+{% include "base.html" %}
+<head>
+    <style>
+    
+    h1 {
+        color: green;
+        text-align: center;
+    }
+    
+    body {
+        background-image: url("20150805204041-google-company-building-corporate.jpeg")
+    }
+
+        table {
+        border: 1px solid black;
+        border-collapse: collapse;
+		font-size: 20px;
+        background-color: lightgreen;
+    }
+    
+    table {
+        width: 500px;
+        height: 100px;
+		margin: auto;
+    }
+	
+	th, tr, td {
+        padding: 30px 15px;
+    }
+    
+    #name, #email, #number, #subject {
+		background-color: lightyellow;
+		border-radius: 5px;
+        width: 100%;
+	}
+
+    #name, #email, #number {
+        height: 25px;
+    }
+
+    #td-btn {
+		text-align: center;
+	}
+
+    #button {
+		width: 150px;
+		height: 30px;
+		background-color: green;
+		color: white;
+		font-size: 15px;
+		border-style: solid;
+		border-radius: 20px;
+	}
+    </style>
+</head>
+
+<body>
+    
+    <h1>Contact Us</h1>
+
+    <table>
+		<tr>
+			<td><label for="name">Enter Name: </label></td>
+			<td><input type="text" id="name" name="name"></td>
+		</tr>
+
+        <tr>
+			<td><label for="email">Enter Email: </label></td>
+			<td><input type="email" id="email" name="email"></td>
+		</tr>
+
+        <tr>
+			<td><label for="number">Enter Phone Number: </label></td>
+			<td><input type="text" id="number" name="number"></td>
+		</tr>
+		
+		<tr>
+			<td>Enter Subject: </td><td><textarea rows="5" cols="20" id="subject"></textarea></td>
+		</tr>
+		
+		<tr>
+			<td colspan="2" id="td-btn"><input type="submit" value="submit" id="button"></td>
+		</tr>
+	</table>
+</body>
+
+</html>
