@@ -1,5 +1,5 @@
 # Projects
-Data Analytics and Data Science
+Python Developer, Data Analytics and Data Science
 
 In Data Science Projects 
 if you want to run plotly you need versions are:
