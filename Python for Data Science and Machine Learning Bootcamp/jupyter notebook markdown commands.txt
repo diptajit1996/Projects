@@ -1,5 +1,0 @@
-Shift + Enter - It will run that cell
-
-Alt + Enter - It will run that cell and also create a new next cell. (deprecated)
-
-Shift + Tab - Gives the information of the method
