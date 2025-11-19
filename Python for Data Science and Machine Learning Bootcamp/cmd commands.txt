@@ -1,0 +1,3 @@
+dir - shows list of folders and files
+
+cls - clears the cmd
